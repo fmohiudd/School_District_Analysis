@@ -64,7 +64,7 @@ We replaced the 9th grade math and reading scores with _NaN_ keeping the score o
 The following figures showcases the data presented by different matrics.
 
 <img src ='./Resources/Reading_Ave_by_GradeLEvel_New.png'> 
-<img src ='./Resources/Math_Ave_by_GradeLEvel_new'> 
+<img src ='./Resources/Math_Ave_by_GradeLEvel_new.png'> 
 
 **Fig. 8**  - Scores by grade level. The 9th grade score of THS does not affect 10th, 11th and 12th grade scores. This is true for both reading and math score.
 
