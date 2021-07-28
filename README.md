@@ -10,7 +10,7 @@ The purpose of this project is to learn the use of Jupyter notebook which is a p
 The raw data from the school district had issues in two major categories. The work is done in the Python file: *PyCitySchools_Challenge.ipynb* using Jupyter notebook.
 1. There were random "Dr.", "Mr.", "Mrs.", "Miss" as prefix and "MD.", "DVM, "PhD" as suffix. We cleaned out these from the using *str.replace* and replaced these suffixes and prefixes with blank space " ". The family suffixes, such as Jr., II, III, etc. were left unaffected.
 
-2. The 9th grade students in Thomas High School cheated on the exam, which compromised the overall school performance data. We replaced the ninth grade students' math and reading scores with NaN to emilinate these scores from the calculation of the average and percentage of math and reading scores of Thomas High School. By eliminating the math and reading scores only and keeping the student names in the list we kept the school budget and spending data in tact. We used "loc" to locate the 9th grade students from Thomas High School, and then assigned NaN to the math and reading score. (See **Fig. 1** below. )
+2. The 9th grade students in Thomas High School cheated on the exam, which compromised the overall school performance data. We replaced the ninth grade students' math and reading scores with NaN to emilinate these scores from the calculation of the average and percentage of math and reading scores of Thomas High School. By eliminating the math and reading scores only and keeping the student names in the list we kept the school budget and spending data intact. We used "loc" to locate the 9th grade students from Thomas High School, and then assigned NaN to the math and reading score. (See **Fig. 1** below. )
 
 <img src ='./Resources/Ninth_Grade_NaN.png'>
 
@@ -63,7 +63,8 @@ We replaced the 9th grade math and reading scores with _NaN_ keeping the score o
 ## Different Matrics
 The following figures showcases the data presented by different matrics.
 
-<img src ='./Resources/Reading_Ave_by_GradeLEvel_New.png'> <img src ='./Resources/Math_Ave_by_GradeLEvel_New.png'> 
+<img src ='./Resources/Reading_Ave_by_GradeLEvel_New.png'> 
+<img src ='./Resources/Math_Ave_by_GradeLEvel_New.png'> 
 
 **Fig. 8**  - Scores by grade level. The 9th grade score of THS does not affect 10th, 11th and 12th grade scores. This is true for both reading and math score.
 
